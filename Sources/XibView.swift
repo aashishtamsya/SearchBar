@@ -8,7 +8,7 @@
 
 import UIKit
 @IBDesignable
-open class XibView: UIView {
+public class XibView: UIView {
   // MARK: - Properties
   /// Container View which will hold custom Xib Views.
   var contentView: UIView?
