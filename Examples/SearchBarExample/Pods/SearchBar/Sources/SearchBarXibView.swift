@@ -89,6 +89,7 @@ private extension SearchBarXibView {
   ///
   /// - Returns: returns view which returned from the nib.
   func loadViewFromNib() -> UIView? {
-    return UINib(nibName: nibName, bundle: Bundle(for: type(of: self))).instantiate(withOwner: self, options: nil).first as? UIView
+    return UINib(nibName: nibName, bundle: nil).instantiate(withOwner: self, options: nil).first as? UIView
+//    return UINib(nibName: nibName, bundle: Bundle(for: type(of: self))).instantiate(withOwner: self, options: nil).first as? UIView
   }
 }

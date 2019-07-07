@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SearchBar:
-    :commit: ca833b337f2488de17e5c989de7c8d848b85079e
+    :commit: f5a12335c77064bd5a7d8f3ea528d6c590123f25
     :git: https://github.com/aashishtamsya/SearchBar
 
 SPEC CHECKSUMS:
