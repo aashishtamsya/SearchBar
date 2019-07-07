@@ -8,7 +8,7 @@
 
 import UIKit
 @IBDesignable
-open class XibView: UIView {
+public class XibView: UIView {
   // MARK: - Properties
   /// Container View which will hold custom Xib Views.
   var contentView: UIView?
@@ -68,7 +68,7 @@ open class XibView: UIView {
 // MARK: - Read-Only Variables.
 extension XibView {
   /// Provides interface to access `SearchView`.
-  var searchBar: SearchBar? {
+  public var searchBar: SearchBar? {
     get {
       return contentView as? SearchBar
     }
