@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD62E9A222D866A200CD8FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD62E9A122D866A200CD8FE5 /* Assets.xcassets */; };
+		FD62E9A822D8675D00CD8FE5 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62E9A722D8675C00CD8FE5 /* XibView.swift */; };
 		FDCD052822D84B2900D19AAB /* SearchBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD051E22D84B2800D19AAB /* SearchBar.framework */; };
 		FDCD052D22D84B2900D19AAB /* SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD052C22D84B2900D19AAB /* SearchBarTests.swift */; };
 		FDCD052F22D84B2900D19AAB /* SearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCD052122D84B2800D19AAB /* SearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDCD053F22D8531600D19AAB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD053C22D8531600D19AAB /* SearchView.swift */; };
-		FDCD054022D8531600D19AAB /* SearchViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD053D22D8531600D19AAB /* SearchViewDelegates.swift */; };
-		FDCD054122D8531600D19AAB /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCD053E22D8531600D19AAB /* SearchView.xib */; };
+		FDCD053F22D8531600D19AAB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD053C22D8531600D19AAB /* SearchBar.swift */; };
+		FDCD054022D8531600D19AAB /* SearchBarDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD053D22D8531600D19AAB /* SearchBarDelegates.swift */; };
+		FDCD054122D8531600D19AAB /* SearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCD053E22D8531600D19AAB /* SearchBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD62E9A122D866A200CD8FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD62E9A722D8675C00CD8FE5 /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		FDCD051E22D84B2800D19AAB /* SearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD052122D84B2800D19AAB /* SearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
 		FDCD052222D84B2800D19AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCD052722D84B2900D19AAB /* SearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD052C22D84B2900D19AAB /* SearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTests.swift; sourceTree = "<group>"; };
 		FDCD052E22D84B2900D19AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDCD053C22D8531600D19AAB /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		FDCD053D22D8531600D19AAB /* SearchViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewDelegates.swift; sourceTree = "<group>"; };
-		FDCD053E22D8531600D19AAB /* SearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		FDCD053C22D8531600D19AAB /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FDCD053D22D8531600D19AAB /* SearchBarDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarDelegates.swift; sourceTree = "<group>"; };
+		FDCD053E22D8531600D19AAB /* SearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,21 +90,23 @@
 		FDCD053822D8526D00D19AAB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FDCD053B22D8531600D19AAB /* SearchView */,
+				FD62E9A722D8675C00CD8FE5 /* XibView.swift */,
+				FDCD053B22D8531600D19AAB /* View */,
 				FDCD052122D84B2800D19AAB /* SearchBar.h */,
 				FDCD052222D84B2800D19AAB /* Info.plist */,
+				FD62E9A122D866A200CD8FE5 /* Assets.xcassets */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		FDCD053B22D8531600D19AAB /* SearchView */ = {
+		FDCD053B22D8531600D19AAB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FDCD053C22D8531600D19AAB /* SearchView.swift */,
-				FDCD053D22D8531600D19AAB /* SearchViewDelegates.swift */,
-				FDCD053E22D8531600D19AAB /* SearchView.xib */,
+				FDCD053C22D8531600D19AAB /* SearchBar.swift */,
+				FDCD053D22D8531600D19AAB /* SearchBarDelegates.swift */,
+				FDCD053E22D8531600D19AAB /* SearchBar.xib */,
 			);
-			path = SearchView;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCD054122D8531600D19AAB /* SearchView.xib in Resources */,
+				FD62E9A222D866A200CD8FE5 /* Assets.xcassets in Resources */,
+				FDCD054122D8531600D19AAB /* SearchBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCD053F22D8531600D19AAB /* SearchView.swift in Sources */,
-				FDCD054022D8531600D19AAB /* SearchViewDelegates.swift in Sources */,
+				FDCD053F22D8531600D19AAB /* SearchBar.swift in Sources */,
+				FD62E9A822D8675D00CD8FE5 /* XibView.swift in Sources */,
+				FDCD054022D8531600D19AAB /* SearchBarDelegates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
