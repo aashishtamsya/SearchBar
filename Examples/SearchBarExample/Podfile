@@ -5,7 +5,7 @@ target 'SearchBarExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'SearchBar', git: 'https://github.com/aashishtamsya/SearchBar', tag: '0.0.1'
+  pod 'SearchBar', git: 'https://github.com/aashishtamsya/SearchBar', branch: 'feature/5'
 
   # Pods for SearchBarExample
 

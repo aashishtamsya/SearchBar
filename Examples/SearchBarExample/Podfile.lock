@@ -1,0 +1,22 @@
+PODS:
+  - SearchBar (0.0.1)
+
+DEPENDENCIES:
+  - SearchBar (from `https://github.com/aashishtamsya/SearchBar`, branch `feature/5`)
+
+EXTERNAL SOURCES:
+  SearchBar:
+    :branch: feature/5
+    :git: https://github.com/aashishtamsya/SearchBar
+
+CHECKOUT OPTIONS:
+  SearchBar:
+    :commit: f88bb534ec0a1d092e9559779981e909c8709e5e
+    :git: https://github.com/aashishtamsya/SearchBar
+
+SPEC CHECKSUMS:
+  SearchBar: 9e54a72dc7aecf798251cc9ee7bad2ea11e01715
+
+PODFILE CHECKSUM: e3fb16e2b9d23253092114af2f64ddcf4352efd2
+
+COCOAPODS: 1.7.3

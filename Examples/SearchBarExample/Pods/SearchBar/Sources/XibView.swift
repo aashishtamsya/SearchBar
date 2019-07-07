@@ -68,7 +68,7 @@ open class XibView: UIView {
 // MARK: - Read-Only Variables.
 extension XibView {
   /// Provides interface to access `SearchView`.
-  public var searchBar: SearchBar? {
+  var searchBar: SearchBar? {
     get {
       return contentView as? SearchBar
     }

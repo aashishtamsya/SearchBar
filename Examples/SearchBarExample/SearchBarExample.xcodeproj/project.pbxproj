@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3D8EF0BC467F78E5F476AB /* Pods_SearchBarExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533BD130E192041B8BE26B54 /* Pods_SearchBarExample.framework */; };
 		FDCD054F22D85E6200D19AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD054E22D85E6200D19AAB /* AppDelegate.swift */; };
 		FDCD055122D85E6200D19AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD055022D85E6200D19AAB /* ViewController.swift */; };
 		FDCD055422D85E6200D19AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCD055222D85E6200D19AAB /* Main.storyboard */; };
@@ -28,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		533BD130E192041B8BE26B54 /* Pods_SearchBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchBarExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EA372C732E5516D8501806 /* Pods-SearchBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBarExample.debug.xcconfig"; path = "Target Support Files/Pods-SearchBarExample/Pods-SearchBarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B9CC72E8CB43D0193D710C /* Pods-SearchBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBarExample.release.xcconfig"; path = "Target Support Files/Pods-SearchBarExample/Pods-SearchBarExample.release.xcconfig"; sourceTree = "<group>"; };
 		FDCD054B22D85E6200D19AAB /* SearchBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD054E22D85E6200D19AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCD055022D85E6200D19AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3D8EF0BC467F78E5F476AB /* Pods_SearchBarExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2877A72AE3A13A3DA0DDD8B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55EA372C732E5516D8501806 /* Pods-SearchBarExample.debug.xcconfig */,
+				B7B9CC72E8CB43D0193D710C /* Pods-SearchBarExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C05631A72B27FBF44461E9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533BD130E192041B8BE26B54 /* Pods_SearchBarExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDCD054222D85E6200D19AAB = {
 			isa = PBXGroup;
 			children = (
 				FDCD054D22D85E6200D19AAB /* SearchBarExample */,
 				FDCD054C22D85E6200D19AAB /* Products */,
+				2877A72AE3A13A3DA0DDD8B7 /* Pods */,
+				C05631A72B27FBF44461E9CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,10 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDCD055D22D85E6300D19AAB /* Build configuration list for PBXNativeTarget "SearchBarExample" */;
 			buildPhases = (
+				9B78AC395EE446D6DE11E4A3 /* [CP] Check Pods Manifest.lock */,
 				FDCD054722D85E6200D19AAB /* Sources */,
 				FDCD054822D85E6200D19AAB /* Frameworks */,
 				FDCD054922D85E6200D19AAB /* Resources */,
 				FDCD056422D85E7400D19AAB /* Embed Frameworks */,
+				8524AC7D22BB38CE1C56B9E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8524AC7D22BB38CE1C56B9E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchBarExample/Pods-SearchBarExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchBarExample/Pods-SearchBarExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchBarExample/Pods-SearchBarExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B78AC395EE446D6DE11E4A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchBarExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDCD054722D85E6200D19AAB /* Sources */ = {
@@ -294,6 +363,7 @@
 		};
 		FDCD055E22D85E6300D19AAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EA372C732E5516D8501806 /* Pods-SearchBarExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +386,7 @@
 		};
 		FDCD055F22D85E6300D19AAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B9CC72E8CB43D0193D710C /* Pods-SearchBarExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

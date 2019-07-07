@@ -1,0 +1,6 @@
+framework module SearchBar {
+  umbrella header "SearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

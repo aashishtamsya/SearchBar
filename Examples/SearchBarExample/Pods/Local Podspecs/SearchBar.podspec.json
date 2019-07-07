@@ -1,0 +1,26 @@
+{
+  "name": "SearchBar",
+  "version": "0.0.1",
+  "summary": "SearchBar is an iOS framework for textfield search.",
+  "description": "Written in Swift, searchbar is an user interface for searching",
+  "homepage": "https://github.com/aashishtamsya/SearchBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aashish Tamsya": "aashish.tamsya@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/aashishtamsya/SearchBar.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Sources",
+    "Sources/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}
