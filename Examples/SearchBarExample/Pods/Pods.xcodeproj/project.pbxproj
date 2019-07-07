@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1896BDE7E36F0D6E02FBF657C2917A20 /* Pods-SearchBarExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91328B4BB6422BC2660881C03A03C8B0 /* Pods-SearchBarExample-dummy.m */; };
+		273B4B0A53FB5E51C2CDE74BB4204528 /* SearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD484B8ACB251A7370E3705F5F34F27 /* SearchBar-dummy.m */; };
 		2DD0D454D415981CD5BCA0CB8AD36897 /* Pods-SearchBarExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BF488FFE6074C767578E863276B222 /* Pods-SearchBarExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		407210B734CA58D776BC1754CBF96B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6F3DDF0EDCD13E3AD56094F85E20B784 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA00FBFDB2918F5BC6B86AABEBCF27E /* XibView.swift */; };
+		46AF466616943644CE02B7A005CD54CB /* SearchBarXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B358650D3329FA71B2118ACBE5C3313 /* SearchBarXibView.swift */; };
 		7055048E1F1089CA1E6246F4D3651217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		98E64B42E91DDE7A47CDD1A8873BD42F /* SearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0591D1F126C4DABF84D96E9585590 /* SearchBar-dummy.m */; };
-		AB5F019DA38C4B4537A4AA8840B3CE03 /* SearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FB29AD285686E8E39C94D2E12FC81D78 /* SearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E706B41CA2063805A5A5E7B465EE7DBA /* SearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3058CCCCCE347967979F16C1D5CF0AB2 /* SearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5F019DA38C4B4537A4AA8840B3CE03 /* SearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDE2D8B38931BA0CDAE6B2B1ABD81DF /* SearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E706B41CA2063805A5A5E7B465EE7DBA /* SearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 925E72964D134167E161C30A66EBB309 /* SearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,27 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FF0591D1F126C4DABF84D96E9585590 /* SearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchBar-dummy.m"; sourceTree = "<group>"; };
-		3058CCCCCE347967979F16C1D5CF0AB2 /* SearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchBar-umbrella.h"; sourceTree = "<group>"; };
+		1B358650D3329FA71B2118ACBE5C3313 /* SearchBarXibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchBarXibView.swift; path = Sources/SearchBarXibView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F4B51F7EE296C23F6B725AB21109E6C /* SearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchBar.xcconfig; sourceTree = "<group>"; };
-		4A6928B9582C7515D956733B07C8E8D3 /* SearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchBar.modulemap; sourceTree = "<group>"; };
-		5574323CC0332F74E78C9A33521AA74F /* SearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchBar-prefix.pch"; sourceTree = "<group>"; };
 		6CDE7CCAA48A4FC15ECE1D5D69859933 /* SearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SearchBar.framework; path = SearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5E483C838E5B02066652A3287E4860 /* SearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchBar-Info.plist"; sourceTree = "<group>"; };
-		7EA00FBFDB2918F5BC6B86AABEBCF27E /* XibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = Sources/XibView.swift; sourceTree = "<group>"; };
+		7CDE2D8B38931BA0CDAE6B2B1ABD81DF /* SearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SearchBar.h; path = Sources/SearchBar.h; sourceTree = "<group>"; };
 		846CB9C54199FD2C6D5D0E23B792A95C /* Pods-SearchBarExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SearchBarExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87AF0EBB6E925F6A29B3DB7DA2A89CFB /* Pods_SearchBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SearchBarExample.framework; path = "Pods-SearchBarExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD484B8ACB251A7370E3705F5F34F27 /* SearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchBar-dummy.m"; sourceTree = "<group>"; };
 		91328B4BB6422BC2660881C03A03C8B0 /* Pods-SearchBarExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SearchBarExample-dummy.m"; sourceTree = "<group>"; };
+		925E72964D134167E161C30A66EBB309 /* SearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchBar-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A36975B789BD1C12D4CE356E3C040C21 /* Pods-SearchBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchBarExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A7CC71EA5EA97521EAED465056F2524E /* Pods-SearchBarExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchBarExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6214CE8DC3828D86AF98324DB37AC43 /* Pods-SearchBarExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchBarExample-Info.plist"; sourceTree = "<group>"; };
 		D255D3B9CDE2E52C66286A449FC45332 /* Pods-SearchBarExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SearchBarExample-frameworks.sh"; sourceTree = "<group>"; };
+		D6C5115B3B4D6FD1A6CA0E8B92607CD9 /* SearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchBar.modulemap; sourceTree = "<group>"; };
+		DFC09275E9BD016D3322B2F41089C16D /* SearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchBar-prefix.pch"; sourceTree = "<group>"; };
 		E0865FAC66DA117E4C50A0ECAF0866D7 /* Pods-SearchBarExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SearchBarExample.modulemap"; sourceTree = "<group>"; };
+		EB95FEF79B5EB946881DF663F86D4FCA /* SearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchBar.xcconfig; sourceTree = "<group>"; };
+		F3019DE396ABD7EF09ED293CE9E29DB3 /* SearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchBar-Info.plist"; sourceTree = "<group>"; };
 		F4BF488FFE6074C767578E863276B222 /* Pods-SearchBarExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SearchBarExample-umbrella.h"; sourceTree = "<group>"; };
 		F625038E07A755EB73B3633230DC81F3 /* Pods-SearchBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchBarExample.release.xcconfig"; sourceTree = "<group>"; };
-		FB29AD285686E8E39C94D2E12FC81D78 /* SearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SearchBar.h; path = Sources/SearchBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		222E8D3A748F34ED52337E422C6EA3A4 /* Support Files */ = {
+		25137DFBF4AA310F8902A1F12710B6EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A6928B9582C7515D956733B07C8E8D3 /* SearchBar.modulemap */,
-				3F4B51F7EE296C23F6B725AB21109E6C /* SearchBar.xcconfig */,
-				1FF0591D1F126C4DABF84D96E9585590 /* SearchBar-dummy.m */,
-				7A5E483C838E5B02066652A3287E4860 /* SearchBar-Info.plist */,
-				5574323CC0332F74E78C9A33521AA74F /* SearchBar-prefix.pch */,
-				3058CCCCCE347967979F16C1D5CF0AB2 /* SearchBar-umbrella.h */,
+				D6C5115B3B4D6FD1A6CA0E8B92607CD9 /* SearchBar.modulemap */,
+				EB95FEF79B5EB946881DF663F86D4FCA /* SearchBar.xcconfig */,
+				8BD484B8ACB251A7370E3705F5F34F27 /* SearchBar-dummy.m */,
+				F3019DE396ABD7EF09ED293CE9E29DB3 /* SearchBar-Info.plist */,
+				DFC09275E9BD016D3322B2F41089C16D /* SearchBar-prefix.pch */,
+				925E72964D134167E161C30A66EBB309 /* SearchBar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SearchBar";
@@ -97,20 +97,9 @@
 		622FCD36D87238B0C3787BE4FEF71F3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6918478E86404FF632A8D88C9B5B66F6 /* SearchBar */,
+				867A5DC547B04400AA522EE90865C17D /* SearchBar */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		6918478E86404FF632A8D88C9B5B66F6 /* SearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				FB29AD285686E8E39C94D2E12FC81D78 /* SearchBar.h */,
-				7EA00FBFDB2918F5BC6B86AABEBCF27E /* XibView.swift */,
-				222E8D3A748F34ED52337E422C6EA3A4 /* Support Files */,
-			);
-			name = SearchBar;
-			path = SearchBar;
 			sourceTree = "<group>";
 		};
 		6BBE2B5D6648D2E6E106438C1039F899 /* Pods-SearchBarExample */ = {
@@ -128,6 +117,17 @@
 			);
 			name = "Pods-SearchBarExample";
 			path = "Target Support Files/Pods-SearchBarExample";
+			sourceTree = "<group>";
+		};
+		867A5DC547B04400AA522EE90865C17D /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE2D8B38931BA0CDAE6B2B1ABD81DF /* SearchBar.h */,
+				1B358650D3329FA71B2118ACBE5C3313 /* SearchBarXibView.swift */,
+				25137DFBF4AA310F8902A1F12710B6EE /* Support Files */,
+			);
+			name = SearchBar;
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -212,7 +212,7 @@
 			buildConfigurationList = 2E26D1D29B97A1554A45D63067104704 /* Build configuration list for PBXNativeTarget "SearchBar" */;
 			buildPhases = (
 				835B82C24FBC847400884AB453C55FFC /* Headers */,
-				291CDB6463269EEE11652D76020596EC /* Sources */,
+				496F559001E03ED4409BF2E604AFCF06 /* Sources */,
 				0A0BDFCB6A42AEA5E81D9FA0A8036286 /* Frameworks */,
 				8EA2B341B20973727CED918269E4C4D5 /* Resources */,
 			);
@@ -270,20 +270,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		291CDB6463269EEE11652D76020596EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98E64B42E91DDE7A47CDD1A8873BD42F /* SearchBar-dummy.m in Sources */,
-				6F3DDF0EDCD13E3AD56094F85E20B784 /* XibView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4138A51AEA4AF491D6218084091B20C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1896BDE7E36F0D6E02FBF657C2917A20 /* Pods-SearchBarExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496F559001E03ED4409BF2E604AFCF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273B4B0A53FB5E51C2CDE74BB4204528 /* SearchBar-dummy.m in Sources */,
+				46AF466616943644CE02B7A005CD54CB /* SearchBarXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +365,7 @@
 		};
 		94DFB6892D88DC448EED5C49B6AE561D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F4B51F7EE296C23F6B725AB21109E6C /* SearchBar.xcconfig */;
+			baseConfigurationReference = EB95FEF79B5EB946881DF663F86D4FCA /* SearchBar.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -461,7 +461,7 @@
 		};
 		C05C37EB158EE76C89C4EBEDC6AF38BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F4B51F7EE296C23F6B725AB21109E6C /* SearchBar.xcconfig */;
+			baseConfigurationReference = EB95FEF79B5EB946881DF663F86D4FCA /* SearchBar.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

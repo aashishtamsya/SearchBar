@@ -18,16 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u8r-Si-Mr8" customClass="XibView" customModule="SearchBar">
-                                <rect key="frame" x="93" y="652" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8r-Si-Mr8" customClass="SearchBarXibView" customModule="SearchBar">
+                                <rect key="frame" x="0.0" y="44" width="414" height="57"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="SearchBar"/>
-                                </userDefinedRuntimeAttributes>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="uXW-9c-1aq"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u8r-Si-Mr8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6vF-SS-eMr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u8r-Si-Mr8" secondAttribute="trailing" id="WGL-I6-rEf"/>
+                            <constraint firstItem="u8r-Si-Mr8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tNz-hl-2YW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
