@@ -66,14 +66,14 @@ public class XibView: UIView {
   }
 }
 // MARK: - Read-Only Variables.
-extension XibView {
-  /// Provides interface to access `SearchView`.
-  public var searchBar: SearchBar? {
-    get {
-      return contentView as? SearchBar
-    }
-  }
-}
+//extension XibView {
+//  /// Provides interface to access `SearchView`.
+//  public var searchBar: SearchBar? {
+//    get {
+//      return contentView as? SearchBar
+//    }
+//  }
+//}
 // MARK: - Private Methods
 private extension XibView {
   /// Common initialization/setup method.

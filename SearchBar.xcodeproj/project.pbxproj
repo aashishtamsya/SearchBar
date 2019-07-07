@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD62E9A222D866A200CD8FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD62E9A122D866A200CD8FE5 /* Assets.xcassets */; };
-		FD62E9A822D8675D00CD8FE5 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62E9A722D8675C00CD8FE5 /* XibView.swift */; };
+		FD62E9A822D8675D00CD8FE5 /* SearchBarXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62E9A722D8675C00CD8FE5 /* SearchBarXibView.swift */; };
 		FDCD052822D84B2900D19AAB /* SearchBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD051E22D84B2800D19AAB /* SearchBar.framework */; };
 		FDCD052D22D84B2900D19AAB /* SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD052C22D84B2900D19AAB /* SearchBarTests.swift */; };
 		FDCD052F22D84B2900D19AAB /* SearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCD052122D84B2800D19AAB /* SearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		FD62E9A122D866A200CD8FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD62E9A722D8675C00CD8FE5 /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		FD62E9A722D8675C00CD8FE5 /* SearchBarXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarXibView.swift; sourceTree = "<group>"; };
 		FDCD051E22D84B2800D19AAB /* SearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD052122D84B2800D19AAB /* SearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
 		FDCD052222D84B2800D19AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		FDCD053822D8526D00D19AAB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FD62E9A722D8675C00CD8FE5 /* XibView.swift */,
+				FD62E9A722D8675C00CD8FE5 /* SearchBarXibView.swift */,
 				FDCD053B22D8531600D19AAB /* View */,
 				FDCD052122D84B2800D19AAB /* SearchBar.h */,
 				FDCD052222D84B2800D19AAB /* Info.plist */,
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDCD053F22D8531600D19AAB /* SearchBar.swift in Sources */,
-				FD62E9A822D8675D00CD8FE5 /* XibView.swift in Sources */,
+				FD62E9A822D8675D00CD8FE5 /* SearchBarXibView.swift in Sources */,
 				FDCD054022D8531600D19AAB /* SearchBarDelegates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

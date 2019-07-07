@@ -14,10 +14,10 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-    let searchView = SearchView(frame: CGRect(x: 20, y: 64, width: view.frame.width - 40, height: 57))
-    view.addSubview(searchView)
-    
-    searchView.layoutIfNeeded()
+//    let searchBar = SearchBar(frame: CGRect(x: 20, y: 64, width: view.frame.width - 40, height: 57))
+//    view.addSubview(searchView)
+//    
+//    searchView.layoutIfNeeded()
   }
 
 

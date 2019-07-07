@@ -1,5 +1,5 @@
 //
-//  XibView.swift
+//  SearchBarXibView.swift
 //  GreenOrbit
 //
 //  Created by Aashish Tamsya on 23/01/19.
@@ -8,12 +8,12 @@
 
 import UIKit
 @IBDesignable
-public class XibView: UIView {
+public class SearchBarXibView: UIView {
   // MARK: - Properties
   /// Container View which will hold custom Xib Views.
-  var contentView: UIView?
+  fileprivate var contentView: UIView?
   /// Name of the nib.
-  @IBInspectable var nibName: String?
+  fileprivate var nibName = "SearchBar"
   @IBInspectable
   var shadowRadius: CGFloat {
     get {
@@ -66,7 +66,7 @@ public class XibView: UIView {
   }
 }
 // MARK: - Read-Only Variables.
-//extension XibView {
+//extension SearchBarXibView {
 //  /// Provides interface to access `SearchView`.
 //  public var searchBar: SearchBar? {
 //    get {
@@ -75,7 +75,7 @@ public class XibView: UIView {
 //  }
 //}
 // MARK: - Private Methods
-private extension XibView {
+private extension SearchBarXibView {
   /// Common initialization/setup method.
   func setup() {
     guard let view = loadViewFromNib() else { return }
@@ -89,7 +89,6 @@ private extension XibView {
   ///
   /// - Returns: returns view which returned from the nib.
   func loadViewFromNib() -> UIView? {
-    guard let nibName = nibName else { return nil }
     return UINib(nibName: nibName, bundle: Bundle(for: type(of: self))).instantiate(withOwner: self, options: nil).first as? UIView
   }
 }
