@@ -67,7 +67,7 @@ public class SearchBarXibView: UIView {
 }
 // MARK: - Read-Only Variables.
 //extension SearchBarXibView {
-//  /// Provides interface to access `SearchView`.
+//  /// Provides interface to access `SearchBar`.
 //  public var searchBar: SearchBar? {
 //    get {
 //      return contentView as? SearchBar
@@ -89,7 +89,6 @@ private extension SearchBarXibView {
   ///
   /// - Returns: returns view which returned from the nib.
   func loadViewFromNib() -> UIView? {
-    return UINib(nibName: nibName, bundle: Bundle(identifier: "com.adweb.ios.SearchBar")).instantiate(withOwner: self, options: nil).first as? UIView
-//    return UINib(nibName: nibName, bundle: Bundle(for: type(of: self))).instantiate(withOwner: self, options: nil).first as? UIView
+    return UINib(nibName: nibName, bundle: Bundle(for: type(of: self.classForCoder))).instantiate(withOwner: self, options: nil).first as? UIView
   }
 }

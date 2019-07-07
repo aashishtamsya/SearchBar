@@ -8,23 +8,23 @@
 
 import UIKit
 
-/// SearchBarGestureDelegate represents method which are related to gestures associated with `SearchView`.
+/// SearchBarGestureDelegate represents method which are related to gestures associated with `SearchBar`.
 public protocol SearchBarGestureDelegate: class {
-  /// Provides interface which delegate actions when user taps on `SearchView`.
+  /// Provides interface which delegate actions when user taps on `SearchBar`.
   ///
-  /// - Parameter searchView: instance of searchView
-  func searchBarDidTap(_ searchView: SearchBar)
+  /// - Parameter searchBar: instance of searchBar.
+  func searchBarDidTap(_ searchBar: SearchBar)
 }
 
-/// SearchBarDelegate represents method which are associated with `SearchView`.
+/// SearchBarDelegate represents method which are associated with `SearchBar`.
 public protocol SearchBarDelegate: class {
-  /// Provides interface to searchField in `SearchView`.
+  /// Provides interface to searchField in `SearchBar`.
   ///
   /// - Parameters:
-  ///   - searchView: instance of searchView.
+  ///   - searchBar: instance of searchBar.
   ///   - text: text in searchField.
-  func searchBar(_ searchView: SearchBar, searchText text: String)
-  /// Provides interface to clear button of searchField in `SearchView`.
+  func searchBar(_ searchBar: SearchBar, searchText text: String)
+  /// Provides interface to clear button of searchField in `SearchBar`.
   ///
   /// - Parameter textField: instance of searchField.
   func searchBar(shouldClear textField: UITextField)
