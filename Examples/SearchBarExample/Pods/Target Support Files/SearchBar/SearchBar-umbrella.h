@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "SearchBar.h"
 
 FOUNDATION_EXPORT double SearchBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char SearchBarVersionString[];
