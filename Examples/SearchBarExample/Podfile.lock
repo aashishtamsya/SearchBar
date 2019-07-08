@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SearchBar:
-    :commit: 91dc7ef4838a000b59db56d856ff1c1894c1cbcb
+    :commit: ff05b2978e032f4ba8061eb6404df482a309fc4d
     :git: https://github.com/aashishtamsya/SearchBar
 
 SPEC CHECKSUMS:
-  SearchBar: 9e54a72dc7aecf798251cc9ee7bad2ea11e01715
+  SearchBar: 1ba66b3414d807cbb04d7049fae3f922856cf33d
 
 PODFILE CHECKSUM: e3fb16e2b9d23253092114af2f64ddcf4352efd2
 

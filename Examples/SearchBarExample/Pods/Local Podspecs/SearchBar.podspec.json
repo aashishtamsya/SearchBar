@@ -20,7 +20,7 @@
   },
   "source_files": [
     "Sources",
-    "Sources/**/*.{h,m}"
+    "Sources/**/*.{h,m,nib,swift}"
   ],
   "exclude_files": "Classes/Exclude"
 }
